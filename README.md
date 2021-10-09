@@ -54,3 +54,8 @@ there.
 - Calling the `cmd-project-test` function from the
 `src` directory will prompt for a file or directory from the folder `project/tests`
 and run `./run_tests` from the `project/scripts` directory on the prompted files.
+
+## TODOs
+This is a rudimentary package that I created to suit my immediate needs. It might not be well suited for every project structure and management. Here are a few things that I would like to do, to improve it and make it usable more widely:
+- [ ] Support defining an arbitrary number of extra commands that follow the same pattern, and provide a way to bind those to keys in projects when they are set.
+- [ ] Extend the support to more diverse syntax for the commands.
